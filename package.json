@@ -23,6 +23,8 @@
         "url": "git://github.com/RyanRio/tslib-base.git"
     },
     "dependencies": {
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1"
     },
     "scripts": {
         "build": "trash build && tsc -p tsconfig.main.json && tsc -p tsconfig.module.json && npm run build:browser",
@@ -34,6 +36,8 @@
     },
     "devDependencies": {
         "@types/jasmine": "^2.5.51",
+        "@types/react": "^15.0.35",
+        "@types/react-dom": "^15.5.1",
         "concurrently": "^3.5.0",
         "jasmine-core": "2.6.3",
         "karma": "^1.7.0",
